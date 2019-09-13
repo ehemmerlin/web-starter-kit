@@ -1,7 +1,7 @@
 # Web Starter Kit
 ## Install Ubuntu 18.04 Desktop
 1. Download
-ubuntu-18.04.3-desktop-amd64.iso from
+ubuntu-18.04.3-desktop-amd64.iso
 2. Create a new VirtualMachine in VMware Workstation or in Oracle VirtualBox
     * Memory: 4Go
     * Hard Disk: 20Go
@@ -9,14 +9,17 @@ ubuntu-18.04.3-desktop-amd64.iso from
 
 ## Install VMware tools
 Open a **Terminal** and type:
+
     $ sudo apt upgrade
     $ sudo apt install open-vm-tools-desktop
 
 ## Install VirtualBox Guest additions tools
 In the opened **Terminal** type:
+
     $ sudo apt install build-essential dkms linux-headers-$(uname -r) 
 
 In VirtualBox menu click **Devices/Insert Guest Additions CD image**. If an error occurs because the image was already inserted, then type:
+
     $ sudo rcvboxadd setup
 
 Reboot the virtual machine.
@@ -28,6 +31,7 @@ In the virtual machine change the language to English.
 ## Add SSH keys to GitHub
 ### Generate
 Open a **Terminal** and type:
+
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Press Enter to accept the default file location and enter a passphrase you'll remember.

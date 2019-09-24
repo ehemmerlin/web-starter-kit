@@ -45,7 +45,7 @@ Detailed instructions: https://help.github.com/articles/generating-a-new-ssh-key
 
     $ cat ~/.ssh/id_rsa.pub
 
-Copy the content of this file to your clipboard and paste it to GitHub Settings / SSH and GPG keys / Add SSH key. No need to install xclip.
+Copy the content of this file to your clipboard and paste it to GitHub **Settings / SSH and GPG keys / New SSH key**. No need to install xclip.
 
 Detailed instruction: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 

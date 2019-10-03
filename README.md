@@ -113,8 +113,8 @@ Please ensure you write all your code in the ~/Code folder. Breath deep and take
 
     $ mkdir ~/Code
     $ cd ~/Code
-    $ git clone this_repository.git # this_repository.git refers to your actual GitHub repository
-    $ cd this_repository
+    $ git clone git@github.com:ehemmerlin/web-starter-kit.git # or fork this repo then create a clone of your fork locally on your computer
+    $ cd web-starter-kit
     $ docker-compose up -d # if you encounter an error at this step, restart Ubuntu and try again
 
 Visit http://localhost:8080
@@ -157,8 +157,6 @@ Visit https://cesi-resume-yourforname.herokuapp.com
 
     git config --global user.email ID+username@users.noreply.github.com
     git commit --amend --reset-author # to update last commit (only if you did one of course)
-
-Finding your commit email address: https://help.github.com/articles/about-commit-email-addresses/
 
 Detailed instructions: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
